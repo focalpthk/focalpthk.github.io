@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/css/styletry2.css">
+  <link rel="icon" href="/images/focalpt no bkg.ico" type="image/icon type">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="focalpt. is created by a Hong Kong Photographer.">
+  <title>focalpt. | Jason Ng</title>
+</head>
+
+<body id="index">
+  <header id="index-head">
+    <div class="container">
+      <a href="/page/home.html"><img src="/images/focalpt rec.png" alt="focalpt. Hong Kong" id="logo"></a>
+      <h4>By Jason Ng | Hong Kong</h4>
+    </div>
+  </header>
+
+  <footer>
+    <p>
+      <small>Using Chrome will provide you a better experience.<br><br></small>
+      <small>Copyright &copy;<script>document.write(new Date().getFullYear());</script>, focalpt. All rights reserved.</small>
+    </p>
+  </footer>
+
+  <script>
+  let mag = document.getElementById("logo");
+  mag.onmouseover = function(){
+  mag.style.transform = "scale(1.05)";
+  mag.style.transition = "transform 1.5s";
+  }
+
+  mag.onmouseout = function(){
+  mag.style.transform = "scale(1)";
+  mag.style.transition = "transform 1.5s";
+  }
+
+  </script>
+
+</body>
+
+</html>
