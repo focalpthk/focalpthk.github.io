@@ -69,6 +69,56 @@ next.onclick = function(){
   }
 };
 
+window.addEventListener("keydown", function(event){
+  if (event.defaultPrevented){
+    return;
+  }
+  switch(event.key){
+    case "ArrowLeft":
+        if(timer!=null){
+          clearInterval(timer);
+          timer=null;
+          sig.classList = classes[1];
+          plusSlides(-1);
+        }
+        else{
+          plusSlides(-1);
+        }
+      break;
+
+      case "ArrowRight":
+          if(timer!=null){
+            clearInterval(timer);
+            timer=null;
+            sig.classList = classes[1];
+            plusSlides(1);
+          }
+          else {
+            plusSlides(1);
+          }
+      break;
+
+      case " ":
+          if(timer==null){
+            setTimer();
+            sig.classList = classes[0];
+          }
+          else{
+            clearInterval(timer);
+            timer=null;
+            sig.classList = classes[1];
+          }
+      break;
+
+
+      default:
+      return;
+  }
+
+  event.preventDefault();
+}, true);
+
+
 // Thumbnail image controls//
 
 function currentSlide(n) {
