@@ -16,19 +16,3 @@ function nextImage() {
   // slideshowImages[currentImageCounter].style.display = "block";
   slideshowImages[currentImageCounter].style.opacity = 1;
 }
-
-/*let menubar = document.getElementById("menu");
-
-menubar.style.opacity = 0;
-menubar.style.transition = "opacity 8s";
-menubar.style.transitionTimingFunction = "step-end"
-
-menubar.onmouseout = function(){
-  menubar.style.opacity = 0;
-  menubar.style.transition = "opacity 1.5s";
-}
-menubar.onmouseover = function(){
-  menubar.style.opacity = 1;
-  menubar.style.transition = "opacity 0.5s";
-}
-*/

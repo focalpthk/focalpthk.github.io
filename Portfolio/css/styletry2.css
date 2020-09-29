@@ -378,6 +378,14 @@ article p{
   padding-left: 20px;
 }
 
+#reminder{
+  text-align: center;
+  color: white;
+  background-color: #2bcbba;
+  width:49%;
+  padding: 3px;
+}
+
 /*Ref from YT*/
 #leftarrow,
 #rightarrow{
@@ -811,6 +819,10 @@ textarea:invalid{
   #rightarrow:hover{
     filter: none;
     background-color: transparent;
+  }
+
+  #reminder{
+    display: none;
   }
 }
 

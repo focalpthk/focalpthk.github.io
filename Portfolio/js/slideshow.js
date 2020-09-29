@@ -158,3 +158,10 @@ function setTimer(){
 initGallery();
 currentSlide(1); //start at first image
 setTimer();
+
+
+let reminder = document.getElementById("reminder");
+
+reminder.style.opacity = 0;
+reminder.style.transition = "opacity 15s";
+reminder.style.transitionTimingFunction = "ease-end";
