@@ -546,15 +546,18 @@ article p{
 }
 
 #contact-submit:hover{
-  border: 2px solid #5fa8d3;
-  color:#5fa8d3;
+  /*border: 2px solid #5fa8d3;*/
+  border: 2px solid #2bcbba;
+  /*color:#5fa8d3;*/
+  color:#2bcbba;
   filter: brightness(110%);
   transition: 0.2s ease-in-out;
 }
 
 #contact-submit:active{
   background-color: rgba(255,255,255,0.8);
-  color:#2c75a0;
+  /*color:#2c75a0;*/
+  color:#12B2A1;
 }
 
 .col-con2{
@@ -580,11 +583,13 @@ article p{
 }
 
 .col-con2 a:hover{
-  background-color: #cd486b;
+  /*background-color: #cd486b;*/
+  background-color: #2bcbba;
 }
 
 #fb a:hover{
-  background-color: #4267B2;
+  /*background-color: #4267B2;*/
+  background-color: #2bcbba;
 }
 
 
@@ -636,7 +641,8 @@ article p{
   width: 100%;
   left:0%;
   bottom:-1px;
-  border-bottom: 3px solid #5fa8d3;
+  /*border-bottom: 3px solid #5fa8d3;*/
+  border-bottom: 3px solid #2bcbba;
   transform: translateX(-100%);
   transition: all 0.3s ease;
 }
@@ -652,7 +658,8 @@ article p{
 .form input:valid + .label-line .content{
   transform: translateY(-150%);
   font-size: 14px;
-  color: #5fa8d3;
+  /*color: #5fa8d3;*/
+  color: #2bcbba;
 }
 
 .form input:focus + .label-line::after,
@@ -710,12 +717,15 @@ textarea:invalid{
 .messagebox-form textarea:valid + .label-line .content2{
   transform: translateY(-20px);
   font-size: 14px;
-  color: #5fa8d3;
+  /*color: #5fa8d3;*/
+  color: #2bcbba;
+
 }
 
 .messagebox-form textarea:focus,
 .messagebox-form textarea:valid{
-  border-bottom: 3px solid #5fa8d3;
+  /*border-bottom: 3px solid #5fa8d3;*/
+  border-bottom: 3px solid #2bcbba;
 }
 
 .thankyou_message{
