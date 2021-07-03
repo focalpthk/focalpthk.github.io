@@ -8,7 +8,7 @@ const sig = document.getElementById('signifier');
 
 ////////////////Set-up dots////////////////
 
-function initGallery(){
+/*function initGallery(){
   dots=[];
   let dotsContainer = document.getElementById("dotsContainer");
   for (i = 1; i < slides.length+1; i++) {
@@ -19,7 +19,7 @@ function initGallery(){
       dots.push(dot);
   }
   dots[slideIndex].classList.add("active");
-}
+}*/
 
 
 ////////play pause toggle////////
@@ -138,10 +138,10 @@ function showSlides(n) {
 
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
-      dots[i].classList.remove("active");
+      /*dots[i].classList.remove("active");*/
   }
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  /*dots[slideIndex-1].className += " active";*/
 }
 
 /////autoplay/////
@@ -155,7 +155,7 @@ function setTimer(){
 
 ///Run///
 
-initGallery();
+/*initGallery();*/
 currentSlide(1); //start at first image
 setTimer();
 
